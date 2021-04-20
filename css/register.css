@@ -1,0 +1,66 @@
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+header {
+    position: relative;
+    height: 84px;
+    border-bottom: 2px solid #b1191a;
+}
+.logo {
+    position: absolute;
+    top: 16px;
+    left: 0;
+    width: 171px;
+    height: 61px;
+    background: url(../images/logo.png);
+}
+.logo a{
+    display: block;
+    width: 171px;
+    height: 61px;
+    text-indent: -9999px;
+}
+.register {
+    margin-top: 21px;
+    border: 1px solid #ddd;
+    height: 522px;
+}
+.box-hd {
+    padding:0 11px;
+    height: 41px;
+    background-color: #ececec;
+    border-bottom: 1px solid #dddddd;
+}
+.box-hd h4 {
+    float: left;
+    font-size: 18px;
+    color: #333;
+    font-weight: 400;
+    line-height: 40px;
+}
+.login {
+    float: right;
+    font-size: 14px;
+    line-height: 40px;
+}
+.color-red {
+    color: #c81623;
+}
+.box-bd {
+    text-align: center;
+}
+.box-bd ul {
+    margin: 53px 0;
+}
+.box-bd label{
+    font-size: 14px;
+}
+.box-bd input {
+    height: 37px;
+    width: 242px;
+    border: 1px solid #999;
+}
+.error {
+    color: #df3033;
+}

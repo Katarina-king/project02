@@ -1,0 +1,105 @@
+/* .nav {
+    overflow: hidden;
+} */
+.sk {
+    position: absolute;
+    left: 190px;
+    top: 40px;
+    border-left: 1px solid #c81523;
+    padding: 3px 0 0  14px;
+}
+.sk-list ul li{
+    float: left;
+    width: 120px;
+    line-height: 45px;
+    text-align: center;
+}
+.sk-list ul li a{
+    font-size: 16px;
+    font-weight: 700;
+    color: black;
+}
+.sk-col {
+    float: right;
+}
+.sk-col ul li {
+    float: left;
+    line-height: 45px;
+    font-size: 14px;
+}
+.sk-col ul li a {
+    padding: 0 23px;
+}
+.sk-col ul li:last-child a::after {
+    content: '\e91e';
+    font-family: 'icomoon';
+}
+.sk-bd {
+    margin: 25px 0;
+}
+.sk-bd ul li {
+    float: left;
+    width: 290px;
+    height: 460px; 
+    margin-right: 13px;
+    border: 1px solid transparent;
+    overflow: hidden;
+}
+.sk-bd ul li:hover {
+    border: 1px solid #c81523;
+}
+.sk-bd ul li:nth-child(4n) {
+    margin: 0;
+}
+.sk-bd ul li img {
+    width: 100%;
+}
+.sk-bd .content {
+    line-height: 21px;
+    padding: 0 13px;
+}
+.price {
+    height: 48px;
+    line-height: 48px;
+    color: #e60012;
+}
+.price b {
+    font-size: 22px;
+}
+.price i {
+    font-size: 14px;
+}
+.price del {
+    font-size: 14px;
+    color: #a4a4a4;
+}
+.content span {
+    display: inline-block;
+    height: 24px;
+}
+.jindutiao {
+    display: inline-block;
+    width: 132px;
+    height: 12px;
+    border-radius: 7px;
+    border: 1px solid #ed282e;
+    margin: 0 9px;
+}
+.jindutiao div {
+    width: 87%;
+    height: 12px;
+    border-radius: 7px 0 0 7px;
+    background-color: #ed282e;
+}
+.sold {
+    color: #ed282e;
+    font-size: 16px;
+}
+.buy {
+    width: 289px;
+    height: 50px;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 0;
+    background-color: #b1191a;
+}
